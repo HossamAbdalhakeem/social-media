@@ -4,8 +4,6 @@ import home from "@/components/home.vue";
 import signup from "@/components/register/signup";
 import login from "@/components/register/login";
 import profile from "@/components/user/profile";
-import editpost from "@/components/editpost";
-import requests from "@/components/requests";
 import singleuser from "@/components/singleuser";
 import fivourite from "@/components/user/fivourite";
 
@@ -32,17 +30,7 @@ const routes = [
     name: "profile",
     component: profile,
   },
-  {
-    path: "/editpost",
-    name: "editpost",
-    component: editpost,
-  },
 
-  {
-    path: "/requests",
-    name: "requests",
-    component: requests,
-  },
   {
     path: "/singleuser/:id",
     name: "singleuser",
